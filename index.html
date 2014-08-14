@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Todos</title>
+        <link rel="stylesheet" type="text/css" charset="utf-8" href="css/application.css">
+    </head>
+    <body>
+        <div id="views">
+            <div id="tasks">
+                <h1>Todos</h1>
+                <form>
+                    <input type="text" placeholder="What needs to be done?">
+                </form>
+                <div class="items">
+                    <div class="item done">
+                        <div class="view" title="Double click to edit...">
+                            <input type="checkbox" checked="checked">
+                            <span>Eat dinner</span> <a class="destroy"></a>
+                        </div>
+                        <div class="edit">
+                            <input type="text" value="Eat dinner">
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <footer>
+                    <a class="clear">Clear completed</a>
+                    <div class="count"><span class="countVal"></span> left</div>
+                </footer>
+                -->
+            </div>
+        </div>
+    </body>
+</html>
